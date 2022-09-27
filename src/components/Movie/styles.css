@@ -6,7 +6,6 @@
 }
 
 #movieContainer {
-    max-height: 42rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,4 +17,11 @@
 #poster {
     width: 10.5rem;
     height: 15rem;
+}
+
+@media screen and (min-width: 768px) {
+    #movieContainer {
+        flex-direction: row;
+        max-width: 40rem;
+    }
 }

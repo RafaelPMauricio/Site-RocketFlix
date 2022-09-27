@@ -4,6 +4,7 @@ import { IMG_URL } from '../../api.jsx'
 
 import './styles.css'
 
+//Carrega as informações do filme
 export function Movie({movie, showMovie = true}) {
   return (
     <div id='movieContainer'>

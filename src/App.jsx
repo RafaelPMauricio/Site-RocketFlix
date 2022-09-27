@@ -37,8 +37,8 @@ function App() {
   }, [movieId])
 
   return (
-    <div>
-      <img src={siteLogo} alt="setas para indicar aleatoriedade" />
+    <div id='container'>
+      <img src={siteLogo} alt="setas para indicar aleatoriedade" id='logo' />
       <h1>Não sabe o que assistir?</h1>
       <Movie movie={movie} showMovie={buttonPress}/>
       <button onClick={() => { changePageRandom(), changeMovieRandom() }} ><img src={imgMenor} alt="setas para indicar aleatoriedade"/>Encontrar filme</button>

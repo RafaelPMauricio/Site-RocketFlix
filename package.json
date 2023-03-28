@@ -1,7 +1,7 @@
 {
   "name": "rocketflix",
-  "private": false,
-  "homepage": "https://rafaelpmauricio.github.io/Site-RocketFlix/",
+  "private": true,
+  "homepage": "https://github.com/rafaelpmauricio/rafaelpmauricio.github.io/Site-RocketFlix/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
